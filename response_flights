@@ -1,0 +1,2786 @@
+{
+    "flights": [
+        {
+            "fareGroup": {
+                "currency": "BRL",
+                "fares": [
+                    {
+                        "passengersCount": 1,
+                        "passengersType": "ADT",
+                        "priceWithTax": 2243.42,
+                        "priceWithoutTax": 1844.01,
+                        "taxes": [
+                            {
+                                "code": "CFEE",
+                                "description": "FEE",
+                                "percent": 2.67,
+                                "values": [
+                                    {
+                                        "amount": 36.88,
+                                        "currency": "BRL"
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "BREB",
+                                "description": "Taxa de Decolagem (Brasil) (BREB)",
+                                "values": [
+                                    {
+                                        "amount": 109.74,
+                                        "currency": "BRL"
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "AHSE",
+                                "description": "",
+                                "values": [
+                                    {
+                                        "amount": 9.6,
+                                        "currency": "BRL"
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "YCAE",
+                                "description": "Taxa de Uso de Alfândega (EUA) (YCAE)",
+                                "values": [
+                                    {
+                                        "amount": 21.7,
+                                        "currency": "BRL"
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "USAP",
+                                "description": "Taxa de Aterrissagem Internacional (USA) (USAP)",
+                                "values": [
+                                    {
+                                        "amount": 70.3,
+                                        "currency": "BRL"
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "USAS",
+                                "description": "Taxa de Decolagem Internacional (USA) (USAS)",
+                                "values": [
+                                    {
+                                        "amount": 70.3,
+                                        "currency": "BRL"
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "XACO",
+                                "description": "Taxa de Inspentação de Plantas e Animais (USA) (XACO)",
+                                "values": [
+                                    {
+                                        "amount": 15.21,
+                                        "currency": "BRL"
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "XYCR",
+                                "description": "Taxa de Serviço de Imigração (EUA) (XYCR)",
+                                "values": [
+                                    {
+                                        "amount": 26.89,
+                                        "currency": "BRL"
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "AYSE",
+                                "description": "Taxa de Segurança 11 de Setembro (EUA) (AYSE)",
+                                "values": [
+                                    {
+                                        "amount": 21.51,
+                                        "currency": "BRL"
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "XF",
+                                "description": "Taxa de Facilidade e Segurança de Passageiro (XF)",
+                                "values": [
+                                    {
+                                        "amount": 17.28,
+                                        "currency": "BRL"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "priceWithTax": 2243.42,
+                "priceWithoutTax": 1844.01,
+                "reCharging": false
+            },
+            "segments": [
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T22:34:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T12:00:00",
+                    "duration": 694,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T17:07:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T12:00:00",
+                            "duration": 427,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 700,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T22:34:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T18:27:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 427,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDIyOjM0OjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDI3WiIgc2drPSJ7Yzpbe2E6J0NNNzAwLTEwMDkxODEyMDAnLGI6J0dSVVBUWTEwMDkxODE3MDdPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQyNy0xMDA5MTgxODI3JyxiOidQVFlNSUExMDA5MTgyMjM0T00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDEyOjAwOjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 1
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T16:22:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T05:35:00",
+                    "duration": 707,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T10:40:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T05:35:00",
+                            "duration": 425,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 811,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T16:22:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T12:14:00",
+                            "duration": 188,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 430,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDE2OjIyOjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDI4WiIgc2drPSJ7Yzpbe2E6J0NNODExLTEwMDkxODA1MzUnLGI6J0dSVVBUWTEwMDkxODEwNDBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQzMC0xMDA5MTgxMjE0JyxiOidQVFlNSUExMDA5MTgxNjIyT00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDA1OjM1OjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 2
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T16:22:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T05:25:00",
+                    "duration": 717,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T10:30:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T05:25:00",
+                            "duration": 425,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 724,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T16:22:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T12:14:00",
+                            "duration": 188,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 430,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDE2OjIyOjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDI4WiIgc2drPSJ7Yzpbe2E6J0NNNzI0LTEwMDkxODA1MjUnLGI6J0dSVVBUWTEwMDkxODEwMzBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQzMC0xMDA5MTgxMjE0JyxiOidQVFlNSUExMDA5MTgxNjIyT00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDA1OjI1OjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 3
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T23:17:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T12:00:00",
+                    "duration": 737,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T17:07:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T12:00:00",
+                            "duration": 427,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 700,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T23:17:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T19:10:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 441,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDIzOjE3OjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDI5WiIgc2drPSJ7Yzpbe2E6J0NNNzAwLTEwMDkxODEyMDAnLGI6J0dSVVBUWTEwMDkxODE3MDdPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQ0MS0xMDA5MTgxOTEwJyxiOidQVFlNSUExMDA5MTgyMzE3T00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDEyOjAwOjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 4
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-11T01:50:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T12:00:00",
+                    "duration": 890,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T17:07:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T12:00:00",
+                            "duration": 427,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 700,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-11T01:50:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T21:47:00",
+                            "duration": 183,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 490,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTExVDAxOjUwOjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDI5WiIgc2drPSJ7Yzpbe2E6J0NNNzAwLTEwMDkxODEyMDAnLGI6J0dSVVBUWTEwMDkxODE3MDdPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQ5MC0xMDA5MTgyMTQ3JyxiOidQVFlNSUExMTA5MTgwMTUwT00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDEyOjAwOjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 5
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T22:34:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T05:35:00",
+                    "duration": 1079,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T10:40:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T05:35:00",
+                            "duration": 425,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 811,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T22:34:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T18:27:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 427,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDIyOjM0OjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDI5WiIgc2drPSJ7Yzpbe2E6J0NNODExLTEwMDkxODA1MzUnLGI6J0dSVVBUWTEwMDkxODEwNDBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQyNy0xMDA5MTgxODI3JyxiOidQVFlNSUExMDA5MTgyMjM0T00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDA1OjM1OjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 6
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T22:34:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T05:25:00",
+                    "duration": 1089,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T10:30:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T05:25:00",
+                            "duration": 425,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 724,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T22:34:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T18:27:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 427,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDIyOjM0OjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDMwWiIgc2drPSJ7Yzpbe2E6J0NNNzI0LTEwMDkxODA1MjUnLGI6J0dSVVBUWTEwMDkxODEwMzBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQyNy0xMDA5MTgxODI3JyxiOidQVFlNSUExMDA5MTgyMjM0T00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDA1OjI1OjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 7
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T23:17:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T05:35:00",
+                    "duration": 1122,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T10:40:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T05:35:00",
+                            "duration": 425,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 811,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T23:17:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T19:10:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 441,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDIzOjE3OjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDMwWiIgc2drPSJ7Yzpbe2E6J0NNODExLTEwMDkxODA1MzUnLGI6J0dSVVBUWTEwMDkxODEwNDBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQ0MS0xMDA5MTgxOTEwJyxiOidQVFlNSUExMDA5MTgyMzE3T00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDA1OjM1OjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 8
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T23:17:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T05:25:00",
+                    "duration": 1132,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T10:30:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T05:25:00",
+                            "duration": 425,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 724,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T23:17:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T19:10:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 441,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDIzOjE3OjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDMwWiIgc2drPSJ7Yzpbe2E6J0NNNzI0LTEwMDkxODA1MjUnLGI6J0dSVVBUWTEwMDkxODEwMzBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQ0MS0xMDA5MTgxOTEwJyxiOidQVFlNSUExMDA5MTgyMzE3T00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDA1OjI1OjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 9
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T22:34:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T03:00:00",
+                    "duration": 1234,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T08:01:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T03:00:00",
+                            "duration": 421,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 702,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T22:34:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T18:27:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 427,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDIyOjM0OjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDMxWiIgc2drPSJ7Yzpbe2E6J0NNNzAyLTEwMDkxODAzMDAnLGI6J0dSVVBUWTEwMDkxODA4MDFPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQyNy0xMDA5MTgxODI3JyxiOidQVFlNSUExMDA5MTgyMjM0T00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDAzOjAwOjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 10
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-11T01:50:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T05:35:00",
+                    "duration": 1275,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T10:40:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T05:35:00",
+                            "duration": 425,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 811,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-11T01:50:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T21:47:00",
+                            "duration": 183,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 490,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTExVDAxOjUwOjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDMxWiIgc2drPSJ7Yzpbe2E6J0NNODExLTEwMDkxODA1MzUnLGI6J0dSVVBUWTEwMDkxODEwNDBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQ5MC0xMDA5MTgyMTQ3JyxiOidQVFlNSUExMTA5MTgwMTUwT00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDA1OjM1OjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 11
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T23:17:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T03:00:00",
+                    "duration": 1277,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T08:01:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T03:00:00",
+                            "duration": 421,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 702,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T23:17:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T19:10:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 441,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDIzOjE3OjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDMxWiIgc2drPSJ7Yzpbe2E6J0NNNzAyLTEwMDkxODAzMDAnLGI6J0dSVVBUWTEwMDkxODA4MDFPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQ0MS0xMDA5MTgxOTEwJyxiOidQVFlNSUExMDA5MTgyMzE3T00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDAzOjAwOjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 12
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-11T01:50:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T05:25:00",
+                    "duration": 1285,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T10:30:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T05:25:00",
+                            "duration": 425,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 724,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-11T01:50:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T21:47:00",
+                            "duration": 183,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 490,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTExVDAxOjUwOjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDMyWiIgc2drPSJ7Yzpbe2E6J0NNNzI0LTEwMDkxODA1MjUnLGI6J0dSVVBUWTEwMDkxODEwMzBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQ5MC0xMDA5MTgyMTQ3JyxiOidQVFlNSUExMTA5MTgwMTUwT00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDA1OjI1OjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 13
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-10T23:17:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T01:40:00",
+                    "duration": 1357,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T06:41:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T01:40:00",
+                            "duration": 421,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 758,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-10T23:17:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T19:10:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 441,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTEwVDIzOjE3OjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDMyWiIgc2drPSJ7Yzpbe2E6J0NNNzU4LTEwMDkxODAxNDAnLGI6J0dSVVBUWTEwMDkxODA2NDFPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQ0MS0xMDA5MTgxOTEwJyxiOidQVFlNSUExMDA5MTgyMzE3T00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDAxOjQwOjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 14
+                },
+                {
+                    "arrival": "MIA",
+                    "arrivalDate": "2018-09-11T01:50:00",
+                    "departure": "GRU",
+                    "departureDate": "2018-09-10T03:00:00",
+                    "duration": 1430,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-10T08:01:00",
+                            "departure": "GRU",
+                            "departureDate": "2018-09-10T03:00:00",
+                            "duration": 421,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 702,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "MIA",
+                            "arrivalDate": "2018-09-11T01:50:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-10T21:47:00",
+                            "duration": 183,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 490,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZWN0PSJVUyIgZHRmPSIyMDE4LTA5LTExVDAxOjUwOjAwLjAwMFoiIGVzdD0iMTM1MjgiIGV6aT0iMTM1MjgiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxhOidQUicsYjonUVNFQjIyMTA2JyxjOidRU0VCMjIxMDYnLGQ6J1FTRUIyMjEwNicsZTpbNTgyMV0sZjpbe2E6J0FEVCcsYjoxLGM6MTM4My4wMSxkOjM2Mi41MyxlOjAuMDAsaDowLjAwLGY6WyZxdW90O1BGQSZxdW90O10sZzpbMzBdfV0saTonNzhkNjRiZDc0ZjY1NDhkNCd9IiBweHM9IjMwIiBwa2c9IlNUQU5EQUxPTkUiIHBweT0iQ00iIHBsYz0iQlJMIiBmdHA9IkMiIHBvdD0iMTM4My4wMSIgcHd0PSIxNzQ1LjU0IiBwcm09IjM3OTk4NyIgcHJkPSJBSVIiIHJ0Yz0iMzc5OTg3IiBzZHQ9IjIwMTgtMDctMTJUMjM6NDk6MjkuMDMzWiIgc2drPSJ7Yzpbe2E6J0NNNzAyLTEwMDkxODAzMDAnLGI6J0dSVVBUWTEwMDkxODA4MDFPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9LHthOidDTTQ5MC0xMDA5MTgyMTQ3JyxiOidQVFlNSUExMTA5MTgwMTUwT00nLGQ6JzczOCcsZTonT0FBQVFaMlAnfV19IiBzb3Q9IjE4NDQuMDEiIHN3dD0iMjI0My40MiIgc2N0PSJCUiIgZHRpPSIyMDE4LTA5LTEwVDAzOjAwOjAwLjAwMFoiIHNzdD0iU1AiIHN6aT0iOTE0MSIgbWtpPSI1ODIxIiBwcmY9IjAuMDAiIG1lYz0iT1dOIiBjcHA9IjAiLz4=",
+                    "routeRPH": 0,
+                    "rph": 15
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-23T03:30:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T14:45:00",
+                    "duration": 705,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T16:53:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T14:45:00",
+                            "duration": 188,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 431,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-23T03:30:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-22T18:31:00",
+                            "duration": 419,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 703,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTIzVDAzOjMwOjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wMzNaIiBzZ2s9IntjOlt7YTonQ000MzEtMjIwOTE4MTQ0NScsYjonTUlBUFRZMjIwOTE4MTY1M09NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNNzAzLTIyMDkxODE4MzEnLGI6J1BUWUdSVTIzMDkxODAzMzBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 16
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-22T20:45:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T07:59:00",
+                    "duration": 706,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T10:06:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T07:59:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 491,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-22T20:45:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-22T11:37:00",
+                            "duration": 428,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 701,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTIyVDIwOjQ1OjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wMzNaIiBzZ2s9IntjOlt7YTonQ000OTEtMjIwOTE4MDc1OScsYjonTUlBUFRZMjIwOTE4MTAwNk9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNNzAxLTIyMDkxODExMzcnLGI6J1BUWUdSVTIyMDkxODIwNDVPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 17
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-22T20:45:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T06:00:00",
+                    "duration": 825,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T08:10:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T06:00:00",
+                            "duration": 190,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 173,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-22T20:45:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-22T11:37:00",
+                            "duration": 428,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 701,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTIyVDIwOjQ1OjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wMzNaIiBzZ2s9IntjOlt7YTonQ00xNzMtMjIwOTE4MDYwMCcsYjonTUlBUFRZMjIwOTE4MDgxME9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNNzAxLTIyMDkxODExMzcnLGI6J1BUWUdSVTIyMDkxODIwNDVPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 18
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-23T00:30:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T07:59:00",
+                    "duration": 931,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T10:06:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T07:59:00",
+                            "duration": 187,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 491,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-23T00:30:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-22T15:26:00",
+                            "duration": 424,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 800,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTIzVDAwOjMwOjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wMzRaIiBzZ2s9IntjOlt7YTonQ000OTEtMjIwOTE4MDc1OScsYjonTUlBUFRZMjIwOTE4MTAwNk9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNODAwLTIyMDkxODE1MjYnLGI6J1BUWUdSVTIzMDkxODAwMzBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 19
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-23T00:25:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T06:00:00",
+                    "duration": 1045,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T08:10:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T06:00:00",
+                            "duration": 190,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 173,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-23T00:25:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-22T15:21:00",
+                            "duration": 424,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 725,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTIzVDAwOjI1OjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wMzRaIiBzZ2s9IntjOlt7YTonQ00xNzMtMjIwOTE4MDYwMCcsYjonTUlBUFRZMjIwOTE4MDgxME9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNNzI1LTIyMDkxODE1MjEnLGI6J1BUWUdSVTIzMDkxODAwMjVPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 20
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-23T00:30:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T06:00:00",
+                    "duration": 1050,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T08:10:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T06:00:00",
+                            "duration": 190,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 173,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-23T00:30:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-22T15:26:00",
+                            "duration": 424,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 800,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTIzVDAwOjMwOjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wMzRaIiBzZ2s9IntjOlt7YTonQ00xNzMtMjIwOTE4MDYwMCcsYjonTUlBUFRZMjIwOTE4MDgxME9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNODAwLTIyMDkxODE1MjYnLGI6J1BUWUdSVTIzMDkxODAwMzBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 21
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-24T00:25:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T18:05:00",
+                    "duration": 1760,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T20:16:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T18:05:00",
+                            "duration": 191,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 227,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-24T00:25:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-23T15:21:00",
+                            "duration": 424,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 725,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTI0VDAwOjI1OjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wMzVaIiBzZ2s9IntjOlt7YTonQ00yMjctMjIwOTE4MTgwNScsYjonTUlBUFRZMjIwOTE4MjAxNk9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNNzI1LTIzMDkxODE1MjEnLGI6J1BUWUdSVTI0MDkxODAwMjVPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 22
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-24T00:30:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T18:05:00",
+                    "duration": 1765,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T20:16:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T18:05:00",
+                            "duration": 191,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 227,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-24T00:30:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-23T15:26:00",
+                            "duration": 424,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 800,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTI0VDAwOjMwOjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wMzVaIiBzZ2s9IntjOlt7YTonQ00yMjctMjIwOTE4MTgwNScsYjonTUlBUFRZMjIwOTE4MjAxNk9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNODAwLTIzMDkxODE1MjYnLGI6J1BUWUdSVTI0MDkxODAwMzBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 23
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-24T00:25:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T17:41:00",
+                    "duration": 1784,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T19:52:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T17:41:00",
+                            "duration": 191,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 333,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-24T00:25:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-23T15:21:00",
+                            "duration": 424,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 725,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTI0VDAwOjI1OjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wMzVaIiBzZ2s9IntjOlt7YTonQ00zMzMtMjIwOTE4MTc0MScsYjonTUlBUFRZMjIwOTE4MTk1Mk9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNNzI1LTIzMDkxODE1MjEnLGI6J1BUWUdSVTI0MDkxODAwMjVPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 24
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-24T00:30:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T17:41:00",
+                    "duration": 1789,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T19:52:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T17:41:00",
+                            "duration": 191,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 333,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-24T00:30:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-23T15:26:00",
+                            "duration": 424,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 800,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTI0VDAwOjMwOjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wMzZaIiBzZ2s9IntjOlt7YTonQ00zMzMtMjIwOTE4MTc0MScsYjonTUlBUFRZMjIwOTE4MTk1Mk9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNODAwLTIzMDkxODE1MjYnLGI6J1BUWUdSVTI0MDkxODAwMzBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 25
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-24T00:30:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T14:45:00",
+                    "duration": 1965,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T16:53:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T14:45:00",
+                            "duration": 188,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 431,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-24T00:30:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-23T15:26:00",
+                            "duration": 424,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 800,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTI0VDAwOjMwOjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wNTJaIiBzZ2s9IntjOlt7YTonQ000MzEtMjIwOTE4MTQ0NScsYjonTUlBUFRZMjIwOTE4MTY1M09NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNODAwLTIzMDkxODE1MjYnLGI6J1BUWUdSVTI0MDkxODAwMzBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 26
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-24T04:10:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T18:05:00",
+                    "duration": 1985,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T20:16:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T18:05:00",
+                            "duration": 191,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 227,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-24T04:10:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-23T19:11:00",
+                            "duration": 419,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 810,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTI0VDA0OjEwOjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wNTJaIiBzZ2s9IntjOlt7YTonQ00yMjctMjIwOTE4MTgwNScsYjonTUlBUFRZMjIwOTE4MjAxNk9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNODEwLTIzMDkxODE5MTEnLGI6J1BUWUdSVTI0MDkxODA0MTBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 27
+                },
+                {
+                    "arrival": "GRU",
+                    "arrivalDate": "2018-09-24T04:10:00",
+                    "departure": "MIA",
+                    "departureDate": "2018-09-22T17:41:00",
+                    "duration": 2009,
+                    "fareProfile": {
+                        "baggage": {
+                            "isIncluded": true,
+                            "quantity": 2,
+                            "type": "PIECE",
+                            "uom": "KG",
+                            "weight": 23
+                        },
+                        "services": []
+                    },
+                    "legs": [
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "PTY",
+                            "arrivalDate": "2018-09-22T19:52:00",
+                            "departure": "MIA",
+                            "departureDate": "2018-09-22T17:41:00",
+                            "duration": 191,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 333,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        },
+                        {
+                            "aircraftCode": "738",
+                            "arrival": "GRU",
+                            "arrivalDate": "2018-09-24T04:10:00",
+                            "departure": "PTY",
+                            "departureDate": "2018-09-23T19:11:00",
+                            "duration": 419,
+                            "fareBasis": "OAAAQZ2P",
+                            "fareClass": "O",
+                            "flightNumber": 810,
+                            "managedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "numberOfStops": 0,
+                            "operatedBy": {
+                                "iata": "CM",
+                                "name": "COPA AIRLINES"
+                            },
+                            "seatClass": {
+                                "code": "O",
+                                "description": "Economica Padrao"
+                            },
+                            "status": "UNDEFINED",
+                            "stops": []
+                        }
+                    ],
+                    "numberOfStops": 1,
+                    "packageGroup": "STANDALONE",
+                    "rateToken": "PHJhdGVUb2tlbiBicmk9IjEwMDAiIGNtaT0iQU1EIiBjaWQ9IjMzIiBjdXI9IkJSTCIgZHRmPSIyMDE4LTA5LTI0VDA0OjEwOjAwLjAwMFoiIG1rcD0iMC43NTAwIiBvZmQ9IntnOidBTURfcjowJyxpOic3OGQ2NGJkNzRmNjU0OGQ0J30iIHB4cz0iMzAiIHBrZz0iU1RBTkRBTE9ORSIgcHB5PSJDTSIgcGxjPSJCUkwiIGZ0cD0iQyIgcG90PSIxMzgzLjAxIiBwd3Q9IjE3NDUuNTQiIHBybT0iMzc5OTg3IiBwcmQ9IkFJUiIgcnRjPSIzNzk5ODciIHNkdD0iMjAxOC0wNy0xMlQyMzo0OToyOS4wNTNaIiBzZ2s9IntjOlt7YTonQ00zMzMtMjIwOTE4MTc0MScsYjonTUlBUFRZMjIwOTE4MTk1Mk9NJyxkOic3MzgnLGU6J09BQUFRWjJQJ30se2E6J0NNODEwLTIzMDkxODE5MTEnLGI6J1BUWUdSVTI0MDkxODA0MTBPTScsZDonNzM4JyxlOidPQUFBUVoyUCd9XX0iIHNvdD0iMTg0NC4wMSIgc3d0PSIyMjQzLjQyIiBta2k9IjU4MjEiIHByZj0iMC4wMCIgbWVjPSJPV04iIGNwcD0iMCIvPg==",
+                    "routeRPH": 1,
+                    "rph": 28
+                }
+            ],
+            "validatingBy": {
+                "iata": "CM",
+                "name": "COPA AIRLINES"
+            }
+        }
+    ],
+    "meta": {
+        "airports": [
+            {
+                "iata": "PTY",
+                "location": {
+                    "name": "Tocumen"
+                },
+                "name": "Tocumen",
+                "stop": true
+            },
+            {
+                "iata": "DFW",
+                "location": {
+                    "name": "Dallas-Fort Worth"
+                },
+                "name": "Dallas Fort Worth",
+                "stop": true
+            },
+            {
+                "iata": "MCO",
+                "location": {
+                    "name": "Orlando"
+                },
+                "name": "Orlando",
+                "stop": true
+            },
+            {
+                "iata": "LIM",
+                "location": {
+                    "name": "Lima"
+                },
+                "name": "Jorge Chávez",
+                "stop": true
+            },
+            {
+                "iata": "FLL",
+                "location": {
+                    "name": "Fort Lauderdale"
+                },
+                "name": "Fort Lauderdale Hollywood",
+                "stop": false
+            },
+            {
+                "iata": "IAH",
+                "location": {
+                    "name": "Houston"
+                },
+                "name": "George Bush Intercontinental Houston",
+                "stop": true
+            },
+            {
+                "iata": "BOG",
+                "location": {
+                    "name": "Bogotá"
+                },
+                "name": "El Dorado",
+                "stop": true
+            },
+            {
+                "iata": "GRU",
+                "location": {
+                    "name": "São Paulo"
+                },
+                "name": "Guarulhos",
+                "stop": false
+            },
+            {
+                "iata": "VCP",
+                "location": {
+                    "name": "Campinas"
+                },
+                "name": "Viracopos",
+                "stop": false
+            },
+            {
+                "iata": "EWR",
+                "location": {
+                    "name": "Newark"
+                },
+                "name": "Newark Liberty",
+                "stop": true
+            },
+            {
+                "iata": "MIA",
+                "location": {
+                    "name": "Miami"
+                },
+                "name": "Miami",
+                "stop": false
+            },
+            {
+                "iata": "ORD",
+                "location": {
+                    "name": "Chicago"
+                },
+                "name": "Chicago O'Hare",
+                "stop": true
+            },
+            {
+                "iata": "JFK",
+                "location": {
+                    "name": "Nova Iorque"
+                },
+                "name": "John F Kennedy",
+                "stop": true
+            },
+            {
+                "iata": "IAD",
+                "location": {
+                    "name": "Washington"
+                },
+                "name": "Washington Dulles",
+                "stop": true
+            }
+        ],
+        "countFlights": 367,
+        "countPriceGroups": 75,
+        "price": {
+            "currency": "BRL",
+            "maxWithTax": 15797.34,
+            "maxWithoutTax": 14989.91,
+            "minWithTax": 1832.75,
+            "minWithoutTax": 1383.01
+        },
+        "priceMatrix": {
+            "columns": [
+                {
+                    "airCompanies": [
+                        {
+                            "iata": "AV",
+                            "name": "AVIANCA"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "bestPrice": false,
+                            "numberOfStops": 0,
+                            "price": 3990.82,
+                            "priceWithoutTax": 3399.9
+                        },
+                        {
+                            "bestPrice": true,
+                            "numberOfStops": 1,
+                            "price": 1832.75,
+                            "priceWithoutTax": 1383.01
+                        }
+                    ]
+                },
+                {
+                    "airCompanies": [
+                        {
+                            "iata": "AA",
+                            "name": "AMERICAN AIRLINES"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "bestPrice": true,
+                            "numberOfStops": 0,
+                            "price": 2874.17,
+                            "priceWithoutTax": 2447.81
+                        },
+                        {
+                            "bestPrice": false,
+                            "numberOfStops": 1,
+                            "price": 3023.74,
+                            "priceWithoutTax": 2572.14
+                        }
+                    ]
+                },
+                {
+                    "airCompanies": [
+                        {
+                            "iata": "CM",
+                            "name": "COPA AIRLINES"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "bestPrice": false,
+                            "numberOfStops": 1,
+                            "price": 2212.3,
+                            "priceWithoutTax": 1728.76
+                        }
+                    ]
+                },
+                {
+                    "airCompanies": [
+                        {
+                            "iata": "JJ",
+                            "name": "LATAM"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "bestPrice": false,
+                            "numberOfStops": 0,
+                            "price": 2942.61,
+                            "priceWithoutTax": 2420.27
+                        },
+                        {
+                            "bestPrice": false,
+                            "numberOfStops": 1,
+                            "price": 2942.61,
+                            "priceWithoutTax": 2420.27
+                        }
+                    ]
+                },
+                {
+                    "airCompanies": [
+                        {
+                            "iata": "UA",
+                            "name": "UNITED AIRLINES"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "bestPrice": false,
+                            "numberOfStops": 0,
+                            "price": 6696.94,
+                            "priceWithoutTax": 5931.58
+                        },
+                        {
+                            "bestPrice": false,
+                            "numberOfStops": 1,
+                            "price": 3627.8,
+                            "priceWithoutTax": 3253.36
+                        }
+                    ]
+                },
+                {
+                    "airCompanies": [
+                        {
+                            "iata": "DL",
+                            "name": "DELTA AIR LINES"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "bestPrice": false,
+                            "numberOfStops": 1,
+                            "price": 3855.38,
+                            "priceWithoutTax": 3467.77
+                        }
+                    ]
+                }
+            ],
+            "currency": "BRL"
+        },
+        "routes": [
+            {
+                "airCompanies": [
+                    {
+                        "iata": "AA",
+                        "name": "AMERICAN AIRLINES"
+                    },
+                    {
+                        "iata": "AV",
+                        "name": "AVIANCA"
+                    },
+                    {
+                        "iata": "CM",
+                        "name": "COPA AIRLINES"
+                    },
+                    {
+                        "iata": "DL",
+                        "name": "DELTA AIR LINES"
+                    },
+                    {
+                        "iata": "JJ",
+                        "name": "LATAM"
+                    },
+                    {
+                        "iata": "UA",
+                        "name": "UNITED AIRLINES"
+                    }
+                ],
+                "airports": [
+                    {
+                        "iata": "GRU",
+                        "location": {
+                            "name": "São Paulo"
+                        },
+                        "name": "Guarulhos",
+                        "stop": false
+                    },
+                    {
+                        "iata": "JFK",
+                        "location": {
+                            "name": "Nova Iorque"
+                        },
+                        "name": "John F Kennedy",
+                        "stop": true
+                    },
+                    {
+                        "iata": "BOG",
+                        "location": {
+                            "name": "Bogotá"
+                        },
+                        "name": "El Dorado",
+                        "stop": true
+                    },
+                    {
+                        "iata": "ORD",
+                        "location": {
+                            "name": "Chicago"
+                        },
+                        "name": "Chicago O'Hare",
+                        "stop": true
+                    },
+                    {
+                        "iata": "IAH",
+                        "location": {
+                            "name": "Houston"
+                        },
+                        "name": "George Bush Intercontinental Houston",
+                        "stop": true
+                    },
+                    {
+                        "iata": "EWR",
+                        "location": {
+                            "name": "Newark"
+                        },
+                        "name": "Newark Liberty",
+                        "stop": true
+                    },
+                    {
+                        "iata": "IAD",
+                        "location": {
+                            "name": "Washington"
+                        },
+                        "name": "Washington Dulles",
+                        "stop": true
+                    },
+                    {
+                        "iata": "LIM",
+                        "location": {
+                            "name": "Lima"
+                        },
+                        "name": "Jorge Chávez",
+                        "stop": true
+                    },
+                    {
+                        "iata": "PTY",
+                        "location": {
+                            "name": "Tocumen"
+                        },
+                        "name": "Tocumen",
+                        "stop": true
+                    },
+                    {
+                        "iata": "VCP",
+                        "location": {
+                            "name": "Campinas"
+                        },
+                        "name": "Viracopos",
+                        "stop": false
+                    }
+                ],
+                "baggageIncluded": [
+                    true,
+                    false
+                ],
+                "departureDates": {
+                    "maximum": "2018-09-10T23:55:00",
+                    "minimum": "2018-09-10T01:10:00"
+                },
+                "fareType": [],
+                "flightDuration": {
+                    "maximum": 2016,
+                    "minimum": 500
+                },
+                "numberOfStops": [
+                    0,
+                    1
+                ],
+                "rph": 0
+            },
+            {
+                "airCompanies": [
+                    {
+                        "iata": "AA",
+                        "name": "AMERICAN AIRLINES"
+                    },
+                    {
+                        "iata": "AV",
+                        "name": "AVIANCA"
+                    },
+                    {
+                        "iata": "CM",
+                        "name": "COPA AIRLINES"
+                    },
+                    {
+                        "iata": "DL",
+                        "name": "DELTA AIR LINES"
+                    },
+                    {
+                        "iata": "JJ",
+                        "name": "LATAM"
+                    },
+                    {
+                        "iata": "UA",
+                        "name": "UNITED AIRLINES"
+                    }
+                ],
+                "airports": [
+                    {
+                        "iata": "MIA",
+                        "location": {
+                            "name": "Miami"
+                        },
+                        "name": "Miami",
+                        "stop": false
+                    },
+                    {
+                        "iata": "DFW",
+                        "location": {
+                            "name": "Dallas-Fort Worth"
+                        },
+                        "name": "Dallas Fort Worth",
+                        "stop": true
+                    },
+                    {
+                        "iata": "BOG",
+                        "location": {
+                            "name": "Bogotá"
+                        },
+                        "name": "El Dorado",
+                        "stop": true
+                    },
+                    {
+                        "iata": "JFK",
+                        "location": {
+                            "name": "Nova Iorque"
+                        },
+                        "name": "John F Kennedy",
+                        "stop": true
+                    },
+                    {
+                        "iata": "LIM",
+                        "location": {
+                            "name": "Lima"
+                        },
+                        "name": "Jorge Chávez",
+                        "stop": true
+                    },
+                    {
+                        "iata": "FLL",
+                        "location": {
+                            "name": "Fort Lauderdale"
+                        },
+                        "name": "Fort Lauderdale Hollywood",
+                        "stop": false
+                    },
+                    {
+                        "iata": "EWR",
+                        "location": {
+                            "name": "Newark"
+                        },
+                        "name": "Newark Liberty",
+                        "stop": true
+                    },
+                    {
+                        "iata": "PTY",
+                        "location": {
+                            "name": "Tocumen"
+                        },
+                        "name": "Tocumen",
+                        "stop": true
+                    },
+                    {
+                        "iata": "ORD",
+                        "location": {
+                            "name": "Chicago"
+                        },
+                        "name": "Chicago O'Hare",
+                        "stop": true
+                    },
+                    {
+                        "iata": "IAD",
+                        "location": {
+                            "name": "Washington"
+                        },
+                        "name": "Washington Dulles",
+                        "stop": true
+                    },
+                    {
+                        "iata": "IAH",
+                        "location": {
+                            "name": "Houston"
+                        },
+                        "name": "George Bush Intercontinental Houston",
+                        "stop": true
+                    },
+                    {
+                        "iata": "MCO",
+                        "location": {
+                            "name": "Orlando"
+                        },
+                        "name": "Orlando",
+                        "stop": true
+                    }
+                ],
+                "baggageIncluded": [
+                    true,
+                    false
+                ],
+                "departureDates": {
+                    "maximum": "2018-09-22T22:40:00",
+                    "minimum": "2018-09-22T03:12:00"
+                },
+                "fareType": [],
+                "flightDuration": {
+                    "maximum": 2221,
+                    "minimum": 505
+                },
+                "numberOfStops": [
+                    1,
+                    0
+                ],
+                "rph": 1
+            }
+        ],
+        "statusExecution": {
+            "completedExecution": true,
+            "executed": 1,
+            "total": 1
+        }
+    }
+}
